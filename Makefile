@@ -48,7 +48,7 @@ Funciones			=	ft_bzero.c \
 
 OB					=	$(Funciones:.c=.o)
 
-C					=	gcc
+C					=	gcc $FLAGS
 
 FLAGS				=	-Wall -Wextra -Werror
 
