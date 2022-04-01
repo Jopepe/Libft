@@ -25,7 +25,7 @@ void	*ft_memset(void *b, int c, size_t len);
 int		ft_atoi(const char *str);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
-size_t  ft_strlen(const char *a);
+size_t	ft_strlen(const char *a);
 void	*ft_memmove(void *dst, const void *src, size_t len);
 void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
